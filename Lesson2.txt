@@ -30,4 +30,4 @@ wc -l err.txt
 
 -----------------------------------------
 
-ls -Al /etc | cut -d ' ' -f 1 | cut -c 2- | sed 1d | sort | uniq
+ls -Al /etc | cut -d ' ' -f 1 | cut -c 2- | sed 1d | sort | uniq | wc -l
