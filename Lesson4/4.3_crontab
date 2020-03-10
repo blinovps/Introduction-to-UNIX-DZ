@@ -1,0 +1,2 @@
+$ sudo crontab -e
+@daily /home/user/cron_script.sh
